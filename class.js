@@ -1,55 +1,55 @@
-// class student {
+class student {
 
-// }
-// const student1 = new student();
-// const student2 = new student();
-// console.log(student1, student2);
+}
+const student1 = new student();
+const student2 = new student();
+console.log(student1, student2);
 
-// class student {
-//     constructor(){
-//         this.id = 1;
-//         this.name = 'mahiya';
-//     }
+class student {
+    constructor(){
+        this.id = 1;
+        this.name = 'mahiya';
+    }
 
-// }
-// const student1 = new student();
-// const student2 = new student();
-// console.log(student1, student2);
+}
+const student1 = new student();
+const student2 = new student();
+console.log(student1, student2);
 
-// class student {
-//     constructor(sId, sName){
-//         this.id = sId;
-//         this.name = sName;
-//     }
+class student {
+    constructor(sId, sName){
+        this.id = sId;
+        this.name = sName;
+    }
 
-// }
-// const student1 = new student(12, "Shuvo");
-// const student2 = new student(29, "Mahiya");
-// console.log(student1, student2);
+}
+const student1 = new student(12, "Shuvo");
+const student2 = new student(29, "Mahiya");
+console.log(student1, student2);
 
-// class student {
-//     constructor(sId, sName){
-//         this.id = sId;
-//         this.name = sName;
-//         this.school = "Kolimunnesa school";
-//     }
+class student {
+    constructor(sId, sName){
+        this.id = sId;
+        this.name = sName;
+        this.school = "Kolimunnesa school";
+    }
 
-// }
-// const student1 = new student(12, "Shuvo");
-// const student2 = new student(29, "Mahiya");
-// console.log(student1, student2);
+}
+const student1 = new student(12, "Shuvo");
+const student2 = new student(29, "Mahiya");
+console.log(student1, student2);
 
-// class student {
-//     constructor(sId, sName){
-//         this.id = sId;
-//         this.name = sName;
-//         this.school = "Kolimunnesa school";
-//     }
+class student {
+    constructor(sId, sName){
+        this.id = sId;
+        this.name = sName;
+        this.school = "Kolimunnesa school";
+    }
 
-// }
-// const student1 = new student(12, "Shuvo");
-// const student2 = new student(29, "Mahiya");
-// console.log(student1.name, student2.name);
+}
+const student1 = new student(12, "Shuvo");
+const student2 = new student(29, "Mahiya");
+console.log(student1.name, student2.name);
 
 class student {
     constructor(sId, sName){

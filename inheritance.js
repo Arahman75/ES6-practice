@@ -1,29 +1,29 @@
-// class Child{
-//     constructor(name){
-//         this.name = name;
-//     }
-// }
-// const baby = new Child("Arnold");
-// const baby2 = new Child("Tom");
-// console.log(baby2);
-// console.log(baby);
+class Child{
+    constructor(name){
+        this.name = name;
+    }
+}
+const baby = new Child("Arnold");
+const baby2 = new Child("Tom");
+console.log(baby2);
+console.log(baby);
 
-// class Parent {
-//     constructor(){
-//         this.fatherName = "Schwerznegger";
-//     }
-// }
-// class Child extends Parent{
-//     constructor(name){
-//         super();
-//         this.name = name;
+class Parent {
+    constructor(){
+        this.fatherName = "Schwerznegger";
+    }
+}
+class Child extends Parent{
+    constructor(name){
+        super();
+        this.name = name;
        
-//     }
-// }
-// const baby = new Child("Arnold");
-// const baby2 = new Child("Tom");
-// console.log(baby2);
-// console.log(baby);
+    }
+}
+const baby = new Child("Arnold");
+const baby2 = new Child("Tom");
+console.log(baby2);
+console.log(baby);
 
 class Parent {
     constructor(){
